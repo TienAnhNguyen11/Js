@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>How to use classes</h1>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        class Car{
+            constructor(name, year){
+                this.name = name;
+                this.year = year;
+            }
+        }
+        myCar = new Car("BMW", 2019);
+        document.getElementById("demo").innerHTML = myCar.name + " " + myCar.year;
+    </script>
+</body>
+</html>
